@@ -1,7 +1,7 @@
 Pipeline{
   agent any
   stages{
-    stage('Compile'){
+    stage('compile'){
       steps{
         sh 'java HelloWorld.java'
       }
